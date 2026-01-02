@@ -30,6 +30,7 @@ import torch.nn as nn
 model = models.mobilenet_v2(pretrained=False)
 model.classifier[1] = nn.Linear(model.classifier[1].in_features, 8)
 model.load_state_dict(torch.load("blood_cells_classifier.pth", weights_only=True))
-model.eval()```
+model.eval()
+```
 
 3. Enjoy
