@@ -1,4 +1,4 @@
-# HemoCnn
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82bb4957-9c55-47ab-8b29-fa58d5f69201" /># HemoCnn
 A convolutional neural network trained using PyTorch to classify eight distinct blood cell subtypes with an accuracy of 89.38%.
 # **Description**
 
@@ -23,15 +23,14 @@ The confusion matrix indicates biologically plausible misclassifications
 ## **Instructions**
 1. **Download** `blood_cells_classifier.pth`.
 2. **Load the model in PyTorch**:  
-`from torchvision import models
+```from torchvision import models
 import torch
 import torch.nn as nn
 
 model = models.mobilenet_v2(pretrained=False)
 model.classifier[1] = nn.Linear(model.classifier[1].in_features, 8)
 model.load_state_dict(torch.load("blood_cells_classifier.pth", weights_only=True))
-model.eval()
-`
+model.eval()```
 3. Enjoy!
 
 ---
