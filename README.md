@@ -23,7 +23,7 @@ The confusion matrix indicates biologically plausible misclassifications
 ## **Instructions**
 1. **Download** `blood_cells_classifier.pth`.
 2. **Load the model in PyTorch**:  
-   `from torchvision import models
+`from torchvision import models
 import torch
 import torch.nn as nn
 
