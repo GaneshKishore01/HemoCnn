@@ -21,6 +21,7 @@ The confusion matrix indicates biologically plausible misclassifications
 
 
 ## **Instructions**
+Use .pth file
 1. **Download** `blood_cells_classifier.pth`.
 2. **Load the model in PyTorch**:  
 ```from torchvision import models
@@ -32,4 +33,9 @@ model.classifier[1] = nn.Linear(model.classifier[1].in_features, 8)
 model.load_state_dict(torch.load("blood_cells_classifier.pth", weights_only=True))
 model.eval()
 ```
+## **OR**
+Use HemoCnn.exe
+1. Download and extract `HemoCnn.zip` from releases & `blood_cells_classifier.pth` from files.
+2. Launch `HemoCnn.exe`
+3. Open Settings and set the path to `blood_cells_classifier.pth`
 3. **Enjoy!**
