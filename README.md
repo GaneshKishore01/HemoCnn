@@ -17,7 +17,24 @@ High performance was observed across most cell types, with particularly strong r
 Lower performance for immature granulocytes (IG) reflects known morphological similarities with neutrophils.
 
 The confusion matrix indicates biologically plausible misclassifications
- ![Image Alt](src/confusion-matrix.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/GaneshKishore01/HemoCnn/blob/main/src/confusion-matrix.png" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/GaneshKishore01/HemoCnn/blob/main/src/Info.png" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/GaneshKishore01/HemoCnn/blob/main/src/Settings.png" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/GaneshKishore01/HemoCnn/blob/main/src/HemoCnn.png" width="400"/>
+    </td>
+  </tr>
+</table>
 
 
 ## **Instructions**
